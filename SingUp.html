@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <<!--as-->
+    <meta charset="UTF-8" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>Registro</title>
 </head>
-<body>
+<body id="rec">
+    <div id="recuadro">
+        <h1>Registro</h1>
+        <form>
+            <label for="texto" id="Letra">Nombre completo: </label><br id="salto">
+            <input type="text" id="texto" class="barra" placeholder="Pepito Perez Soto"><br id="salto2">
+
+            <label for="texto" id="Letra">Username: </label><br id="salto">
+            <input type="text" id="texto" class="barra" placeholder="Peperez2022"><br id="salto2">
+
+            <label for="email" id="Letra">E-mail: </label><br id="salto">
+            <input type="email" id="texto" class="barra" name="correo"placeholder="Pepito_2021@hotmail.com"><br id="salto2">
+
+            <label for="password" id="Letra">Contraseña: </label><br id="salto">
+            <input type="password" id="password" class="barra" name="password"placeholder="HolaMundo*2022" required><br id="salto2">
+            
+            <label for="password" id="Letra">Confirmar contraseña: </label><br id="salto">
+            <input type="password" id="confirm_password" class="barra" name="confirm_password"placeholder="Confirmar contraseña" required><br id="salto2"><br id="salto2">
+
+
+            <button type="submit" class="enviar">Enviar formulario</button>
+        </form>
+
+    </div>
+    
     
 </body>
 </html>
