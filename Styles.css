@@ -1,0 +1,96 @@
+*{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    height: auto;
+    
+}
+
+
+br#salto{
+    content: "";
+    margin: 2em;
+    display: block;
+    margin-bottom: -20px; 
+}
+
+br#salto2{
+    content: "";
+    margin: 2em;
+    display: block;
+    margin-bottom: 18px; 
+}
+
+body{
+    background-image:url( https://w0.peakpx.com/wallpaper/409/452/HD-wallpaper-form-beograd.jpg);
+    height:auto;
+    width: 100%;
+  
+}
+
+
+div{
+    background-color: white;
+    width: 600px;
+    border: 10px solid rgb(100, 201, 221);
+    
+}
+
+#rec{
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    width: 400px;
+    margin:180px;
+
+    
+}
+
+#texto {
+    font-size :20px;
+    text-align: left;
+    COLOR: rgb(35, 77, 133);
+    width: 500px;
+   
+}
+
+#password{
+    font-size :20px;
+    text-align: left;
+    COLOR: rgb(35, 77, 133);
+    width: 500px;
+}
+
+#confirm_password{
+    font-size :20px;
+    text-align: left;
+    COLOR: rgb(35, 77, 133);
+    width: 500px;
+}
+
+#Letra{
+    display: block;
+    font-weight: bold;
+    padding-left: 4%;
+    text-align: left;
+    font-size: 30px;
+    COLOR: rgb(78, 147, 236);
+    width: 500 px;
+}
+
+.enviar{
+    color: white;
+    background-color: rgb(21, 52, 226);
+    font-size: 22px;
+    padding: 20px;
+}
+
+
+h1{
+    color:rgb(8, 12, 227);
+    text-shadow: 3px 3px rgb(72, 215, 247);
+    font-size: 65px;
+    text-align: center;
+}
