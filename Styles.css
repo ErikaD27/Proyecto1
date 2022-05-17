@@ -5,6 +5,15 @@
     
 }
 
+#form_login{
+    
+    /* border: 20px solid; */
+    margin: 70px auto ;
+    width: 600px;
+    background-color: white;
+    border: 10px solid rgb(18, 132, 155);
+}
+
 form{
     
     /* border: 20px solid; */
@@ -52,15 +61,23 @@ body{
     width: 300px;
     color: white;
     background-color: rgb(76, 97, 214);
-    font-size: 22px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 15px;
 }
 
 
 h1{
     color:rgb(92, 94, 209);
     text-shadow: 3px 3px rgb(72, 215, 247);
-    font-size: 65px;
+    font-size: 45px;
     text-align: center;
     text-decoration: underline;
+}
+
+.OlvCont{
+    display:block;
+    margin:12px auto;
+    text-align: center;
+    
+   
 }
