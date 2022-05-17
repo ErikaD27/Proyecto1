@@ -1,24 +1,24 @@
 *{
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Roboto Slab', serif;
     height: auto;
     
 }
 
-#form_login{
+.form_login{
     
-    /* border: 20px solid; */
-    margin: 70px auto ;
-    width: 600px;
+    border: 440px solid;
+    margin: 140px auto ;
+    width: 500px;
     background-color: white;
-    border: 10px solid rgb(18, 132, 155);
+    border: 10px solid rgb(31, 174, 202);
 }
 
 form{
     
     /* border: 20px solid; */
     margin: 35px auto ;
-    width: 600px;
+    width: 500px;
     background-color: white;
     border: 10px solid rgb(100, 201, 221);
 }
@@ -37,7 +37,7 @@ body{
     font-size :20px;
     text-align: left;
     COLOR: rgb(35, 77, 133);
-    width: 560px;
+    width: 460px;
    
 }
 
@@ -47,9 +47,9 @@ body{
     margin-left: 12px;
     font-weight: bold;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     COLOR: rgb(78, 147, 236);
-    width: 580 px;
+    width: 480 px;
 }
 
 
@@ -61,15 +61,15 @@ body{
     width: 300px;
     color: white;
     background-color: rgb(76, 97, 214);
-    font-size: 18px;
-    padding: 15px;
+    font-size: 27px;
+    padding: 8px;
 }
 
 
 h1{
     color:rgb(92, 94, 209);
     text-shadow: 3px 3px rgb(72, 215, 247);
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     text-decoration: underline;
 }
@@ -78,6 +78,5 @@ h1{
     display:block;
     margin:12px auto;
     text-align: center;
-    
-   
+    font-size: 18px; 
 }
