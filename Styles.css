@@ -16,7 +16,6 @@
 
 form{
     
-    /* border: 20px solid; */
     margin: 35px auto ;
     width: 500px;
     background-color: white;
@@ -63,6 +62,7 @@ body{
     background-color: rgb(76, 97, 214);
     font-size: 27px;
     padding: 8px;
+    border: 3px rgb(69, 158, 218)solid;
 }
 
 #r_texto {
@@ -99,9 +99,15 @@ h1{
     text-decoration: underline;
 }
 
-.OlvCont{
+.OlvContR{
     display:block;
     margin:12px auto;
     text-align: center;
-    font-size: 18px; 
+    font-size: 15px; 
 }
+
+.RegistrateAqui{
+    font-size: 15px;
+    margin-top:5px;
+}
+
